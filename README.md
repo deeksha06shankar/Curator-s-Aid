@@ -1,1 +1,3 @@
 # Curator-s-Aid
+This is a Web application to help the care takers of oldage.
+The main objective of this project is to provide a platform for the caretakers of old age home where they can easily maintain the information about the inmates like their personal, medical, pill details. This idea of developing such platform aroused while visiting a old age home where the details are being recorded in a note and also it was tough for the caretakers to analyze the stored data and to access it. Hence the domain DBMS provides the efficient way to store and manage data, this project is implemented using database and web app is developed to ensure the usage of this project is made clear.
