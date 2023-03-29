@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>
+        New User registration
+    </title>
+    <style>
+        @import "http://fonts.googleapis.com/css?family=Droid+Serif";
+
+        .maindiv {
+            margin: 30px auto;
+            width: 980px;
+            height: 600px;
+            background: #D2DAFF;
+            padding-top: 20px;
+            font-family: 'Droid Serif', serif;
+            font-size: 14px
+        }
+
+        .title {
+            width: 500px;
+            height: 70px;
+            text-shadow: 2px 2px 2px #cfcfcf;
+            font-size: 16px;
+            text-align: center
+        }
+
+        .form_div {
+            width: 70%;
+            float: left
+        }
+
+        form {
+            width: 500px;
+            border: 1px dashed #aaa;
+            padding: 10px 30px 40px;
+            margin-left: 70px;
+            background-color: #f0f8ff
+        }
+
+        form h3 {
+            text-align: center;
+            text-shadow: 2px 2px 2px #cfcfcf
+        }
+
+        textarea {
+            width: 100%;
+            height: 50px;
+            border-radius: 1px;
+            box-shadow: 0 0 1px 2px #123456;
+            margin-top: 10px;
+            padding: 7px;
+            border: black;
+        }
+
+        .input {
+            width: 100%;
+            height: 30px;
+            border-radius: 2px;
+            box-shadow: 0 0 1px 2px #123456;
+            margin-top: 10px;
+            padding: 7px;
+            border: none;
+            margin-bottom: 20px
+        }
+
+        .submit {
+            color: #fff;
+            border-radius: 3px;
+            background: #1F8DD6;
+            padding: 5px;
+            margin-top: 40px;
+            border: none;
+            width: 100%;
+            height: 30px;
+            box-shadow: 0 0 1px 2px #123456;
+            font-size: 18px
+        }
+
+        p {
+            color: red;
+            text-align: center
+        }
+
+        span {
+            text-align: center;
+            color: green
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="maindiv">
+        <div class="form_div">
+            <div class="title">
+                <h3>Pill Details</h3>
+            </div>
+            <form name="newuser" class="input" method="post" action="ex.php">
+                <h3>New User Registration</h3>
+                <br>
+                <label for="Id">Id</label>
+                <input type="number" name="Id" id="Id" class="input"> <br> <br>
+
+                <label for="Name">Name </label>
+                <input type="text" name="Name" id="Name" class="input"> <br> <br>
+
+                <label for="pills_taken"> Pills_taken </label>
+                <input type="text" name="pills_taken" id="pills_taken" class="input"> <br> <br>
+
+                <input type="submit" name="Submit" id="submit" value="Next" class="submit" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html

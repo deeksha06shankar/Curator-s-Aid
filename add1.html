@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add1</title>
+    <style>
+        @import "http://fonts.googleapis.com/css?family=Droid+Serif";
+
+        .maindiv {
+            margin: 30px auto;
+            width: 980px;
+            height: 1200px;
+            background: #D2DAFF;
+            padding-top: 20px;
+            font-family: 'Droid Serif', serif;
+            font-size: 14px
+        }
+
+        .title {
+            width: 500px;
+            height: 70px;
+            text-shadow: 2px 2px 2px #cfcfcf;
+            font-size: 16px;
+            text-align: center
+        }
+
+        .form_div {
+            width: 70%;
+            float: left
+        }
+
+        form {
+            width: 500px;
+            border: 1px dashed #aaa;
+            padding: 10px 30px 40px;
+            margin-left: 70px;
+            background-color: #f0f8ff
+        }
+
+        form h3 {
+            text-align: center;
+            text-shadow: 2px 2px 2px #cfcfcf
+        }
+
+        textarea {
+            width: 100%;
+            height: 50px;
+            border-radius: 1px;
+            box-shadow: 0 0 1px 2px #123456;
+            margin-top: 10px;
+            padding: 7px;
+            border: black;
+        }
+
+        .input {
+            width: 100%;
+            height: 30px;
+            border-radius: 2px;
+            box-shadow: 0 0 1px 2px #123456;
+            margin-top: 10px;
+            padding: 7px;
+            border: none;
+            margin-bottom: 20px
+        }
+
+        .submit {
+            color: #fff;
+            border-radius: 3px;
+            background: #1F8DD6;
+            padding: 5px;
+            margin-top: 40px;
+            border: none;
+            width: 100%;
+            height: 30px;
+            box-shadow: 0 0 1px 2px #123456;
+            font-size: 18px
+        }
+
+        p {
+            color: red;
+            text-align: center
+        }
+
+        span {
+            text-align: center;
+            color: green
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="form_div">
+            <div class="title">
+                <h3>Medical Details</h3>
+            </div>
+
+            <form name="newusers" class="input" method="post" action="insert.php">
+                <h3>New User Registration</h3>
+                <br>
+                <label for="Id">Id</label>
+                <input type="number" name="Id" id="Id" class="input"> <br> <br>
+
+                <label for="Name">Name </label>
+                <input type="text" name="Name" id="Name" class="input"> <br> <br>
+
+                <label for="Sugar_level">Sugar_level</label>
+                <input type="number" name="Sugar_level" id="Sugar_level" class="input"> <br> <br>
+
+                <label for="BP_level">BP_level</label>
+                <input type="number" name="BP_level" id="BP_level" class="input">
+
+                <label for="Blood_type">Blood_type</label>
+                <input type="text" name="Blood_type" id="Blood_type" class="input">
+
+                <label for="Weight_kg">Weight_kg </label>
+                <input type="number" name="Weight_kg" id="Weight_kg" class="input">
+
+                <label for="Height_cm">Height_cm</label>
+                <input type="number" name="Height_cm" id="Height_cm" class="input">
+
+                <label for="Health_issue"> Health_issue</label>
+                <input type="text" name="Health_issue" id="Health_issue" class="input">
+
+                <label for="Notes"> Notes</label>
+                <input type="text" name="Notes" id="Notes" class="input">
+
+                <input type="submit" name="Submit" id="submit" value="Next" class="submit" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
